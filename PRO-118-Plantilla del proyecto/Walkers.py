@@ -26,7 +26,7 @@ while True:
        color = frame[y:y+h, x:x+w]
        
     # Extrae los cuadros delimitadores de los cuerpos identificados
-    
+       cv2.imwrite("walkers.avi",roi_color)
 
     if cv2.waitKey(1) == 32: #32 es la tecla espaciadora
         break
